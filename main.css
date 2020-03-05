@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.etsyTitle {
+    color: rgb(241, 101, 32);
+    font-size: 40px;
+}
+
+li {
+    list-style: none
+}
+
+.navBar {
+    padding-top: 5px;
+}
+
+.etsyTitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 15px;
+}
+
+.navBarTop {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.input-container {
+    width: 80%;
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+    border-radius: 40px;
+    border
+    
+}
+
+.inOut {
+    display: flex;
+    margin-right: 30px;
+
+}
+
+.navBar2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.topBar {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.navTypeButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 20%;
+    padding: 6px;
+    height: 60px;
+}
+
+.navTypeButtons li {
+    background-color: #F99368;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 40px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -16px;
+    width: 100%;
+    
+}
+
+.product-header {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-img {
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.product {
+    width: calc(25% - 32px);
+    margin-left: 16px;
+    margin-right: 8px;
+}
+
+.main {
+    display: flex;
+}
+
+.sideBox {
+    padding-right: 60px;
+    margin-right: 15px;
+}
+
+.box li {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signIn {
+    margin-right: 10px;
+}
+
+/* ////// hover box css ////// */
