@@ -7,6 +7,10 @@
 .etsyTitle {
     color: rgb(241, 101, 32);
     font-size: 40px;
+    font-weight: 300;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 16px;
 }
 
 li {
@@ -17,10 +21,6 @@ li {
     padding-top: 5px;
 }
 
-.etsyTitle {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 15px;
-}
 
 .navBarTop {
     display: flex;
@@ -30,21 +30,28 @@ li {
 }
 
 .input-container {
-    width: 80%;
+    width: 75%;
+    margin-right: 100px;
 }
 
 .input {
-    width: 100%;
-    height: 30px;
+    width: 107%;
+    height: 45px;
     border-radius: 40px;
-    border
+    margin-top: 5px;
     
 }
 
 .inOut {
     display: flex;
-    margin-right: 30px;
+    margin-right: 40px;
+    margin-top: 10px;
 
+}
+
+.signIn {
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .navBar2 {
@@ -57,12 +64,12 @@ li {
     display: flex;
     padding: 15px;
     justify-content: space-between;
+    width: 98%;
 }
 
 .navTypeButtons {
     display: flex;
     justify-content: space-between;
-    margin-left: 15px;
     margin-right: 20%;
     padding: 6px;
     height: 60px;
@@ -77,14 +84,17 @@ li {
 
 .container {
     margin: 0 auto;
-    width: 80%;
+    width: 76%;
 }
 
 #grid {
+    padding-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: -16px;
     width: 100%;
+    padding-left: 15px;
+    margin-right: 30px;
+    justify-content: space-between;
     
 }
 
@@ -96,36 +106,67 @@ li {
 
 .product-img {
     background-size: cover;
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 100%;
 }
 
 .product {
-    width: calc(25% - 32px);
-    margin-left: 16px;
-    margin-right: 8px;
+    width: calc(25% - 16px);
+    margin-bottom: 16px;
 }
 
 .main {
     display: flex;
+    margin-top: 20px;
 }
 
 .sideBox {
-    padding-right: 60px;
-    margin-right: 15px;
+    padding-left: 17px;
+    margin-top: 10px;
+}
+
+.sideBoxFontHead {
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .box li {
     margin-top: 5px;
     margin-left: 20px;
+    padding-bottom: 5px;
+
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
 }
 
 .signIn {
     margin-right: 10px;
+}
+
+.circle img {
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    display: none;
+    right: 8px;
+    top: 8px;
+}
+
+.product:hover .circle {
+    display: block;
 }
 
 /* ////// hover box css ////// */
